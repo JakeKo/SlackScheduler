@@ -1,0 +1,23 @@
+{
+  "name": "slackscheduler",
+  "version": "1.0.0",
+  "description": "A Slack app that allows users to schedule various actions in Slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeKo/SlackScheduler.git"
+  },
+  "author": "Jake Koperski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeKo/SlackScheduler/issues"
+  },
+  "homepage": "https://github.com/JakeKo/SlackScheduler#readme",
+  "dependencies": {
+    "@slack/bolt": "^1.4.1"
+  }
+}
